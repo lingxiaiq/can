@@ -268,6 +268,32 @@
           </property>
          </widget>
         </item>
+        <item row="11" column="5">
+         <widget class="QLineEdit" name="lineEdit_B2Min">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <widget class="QLabel" name="label_front3">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>F3:</string>
+          </property>
+         </widget>
+        </item>
         <item row="9" column="0">
          <widget class="QLabel" name="label_front4">
           <property name="text">
@@ -433,6 +459,19 @@
           </property>
          </widget>
         </item>
+        <item row="13" column="9">
+         <widget class="QLineEdit" name="lineEdit_Right4">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
         <item row="5" column="0">
          <widget class="QLabel" name="label_front1">
           <property name="sizePolicy">
@@ -533,19 +572,6 @@
           </property>
           <property name="text">
            <string>R3:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="8" column="0">
-         <widget class="QLabel" name="label_front3">
-          <property name="maximumSize">
-           <size>
-            <width>30</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>F3:</string>
           </property>
          </widget>
         </item>
@@ -749,6 +775,19 @@
           </property>
          </widget>
         </item>
+        <item row="5" column="5">
+         <widget class="QLineEdit" name="lineEdit_F1Min">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
         <item row="11" column="8">
          <widget class="QLineEdit" name="lineEdit_R2Define">
           <property name="maximumSize">
@@ -766,19 +805,6 @@
             <width>40</width>
             <height>27</height>
            </size>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="5">
-         <widget class="QLineEdit" name="lineEdit_F1Min">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
-          </property>
-          <property name="readOnly">
-           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -808,16 +834,13 @@
           </property>
          </widget>
         </item>
-        <item row="13" column="9">
-         <widget class="QLineEdit" name="lineEdit_Right4">
+        <item row="9" column="1">
+         <widget class="QLineEdit" name="lineEdit_F4Define">
           <property name="maximumSize">
            <size>
             <width>40</width>
             <height>27</height>
            </size>
-          </property>
-          <property name="readOnly">
-           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -831,16 +854,6 @@
           </property>
           <property name="readOnly">
            <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="9" column="1">
-         <widget class="QLineEdit" name="lineEdit_F4Define">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
           </property>
          </widget>
         </item>
@@ -887,19 +900,6 @@
             <width>40</width>
             <height>27</height>
            </size>
-          </property>
-         </widget>
-        </item>
-        <item row="11" column="5">
-         <widget class="QLineEdit" name="lineEdit_B2Min">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
-          </property>
-          <property name="readOnly">
-           <bool>true</bool>
           </property>
          </widget>
         </item>
@@ -995,19 +995,6 @@
           </property>
          </widget>
         </item>
-        <item row="0" column="0">
-         <widget class="QLabel" name="label_4">
-          <property name="maximumSize">
-           <size>
-            <width>30</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>NO.</string>
-          </property>
-         </widget>
-        </item>
         <item row="12" column="4">
          <widget class="QLineEdit" name="lineEdit_B3Max">
           <property name="maximumSize">
@@ -1034,6 +1021,19 @@
           </property>
          </widget>
         </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>30</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>NO.</string>
+          </property>
+         </widget>
+        </item>
         <item row="7" column="11">
          <widget class="QLineEdit" name="lineEdit_L2Min">
           <property name="maximumSize">
@@ -1049,6 +1049,29 @@
         </item>
         <item row="10" column="1">
          <widget class="QLineEdit" name="lineEdit_B1Define">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="9">
+         <widget class="QLineEdit" name="lineEdit_Left2">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="8">
+         <widget class="QLineEdit" name="lineEdit_R1Define">
           <property name="maximumSize">
            <size>
             <width>40</width>
@@ -1079,29 +1102,6 @@
           </property>
           <property name="readOnly">
            <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="9">
-         <widget class="QLineEdit" name="lineEdit_Left2">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
-          </property>
-          <property name="readOnly">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="10" column="8">
-         <widget class="QLineEdit" name="lineEdit_R1Define">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
           </property>
          </widget>
         </item>
@@ -1138,6 +1138,19 @@
           </property>
          </widget>
         </item>
+        <item row="9" column="5">
+         <widget class="QLineEdit" name="lineEdit_F4Min">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>27</height>
+           </size>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
         <item row="0" column="9">
          <widget class="QLabel" name="label_9">
           <property name="text">
@@ -1152,26 +1165,6 @@
             <width>40</width>
             <height>27</height>
            </size>
-          </property>
-         </widget>
-        </item>
-        <item row="9" column="5">
-         <widget class="QLineEdit" name="lineEdit_F4Min">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>27</height>
-           </size>
-          </property>
-          <property name="readOnly">
-           <bool>true</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="8">
-         <widget class="QLabel" name="label_8">
-          <property name="text">
-           <string>Def</string>
           </property>
          </widget>
         </item>
@@ -1195,6 +1188,13 @@
             <width>40</width>
             <height>27</height>
            </size>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="8">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>Def</string>
           </property>
          </widget>
         </item>
@@ -1539,7 +1539,582 @@
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_1">
           <item>
-           <widget class="QLineEdit" name="edit"/>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label_DefOrder">
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Def:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_F4">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>F4</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_F2">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>F2</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_F1">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>F1</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_F3">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>F3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_R1">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>R1</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_R3">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>R3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_L3">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>L3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_L1">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>L1</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_L4">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>L4</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_B1">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>B1</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_B2">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>B2</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_B3">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>B3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_B4">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>B4</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_R4">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>R4</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_TestOrder">
+              <property name="minimumSize">
+               <size>
+                <width>40</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>40</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>Test:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_1">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P1</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_2">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P2</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_3">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P3</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_4">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P4</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_5">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P5</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_6">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P6</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_7">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P7</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_8">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P8</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_9">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P9</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_10">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P10</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_11">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P11</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_12">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P12</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_13">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P13</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_p_14">
+              <property name="minimumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>30</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>P14</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
           </item>
           <item>
            <widget class="QTextEdit" name="label"/>
@@ -1567,16 +2142,16 @@
          </layout>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_Start">
+         <widget class="QPushButton" name="pushButton">
           <property name="minimumSize">
            <size>
-            <width>140</width>
+            <width>120</width>
             <height>140</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>140</width>
+            <width>120</width>
             <height>140</height>
            </size>
           </property>
@@ -1584,7 +2159,29 @@
            <string notr="true">font: 75 Bold 36pt &quot;Ubuntu&quot;;</string>
           </property>
           <property name="text">
-           <string>Start</string>
+           <string>Seq</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_Start">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>140</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>140</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 75 Bold 36pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dis</string>
           </property>
          </widget>
         </item>
@@ -1604,7 +2201,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

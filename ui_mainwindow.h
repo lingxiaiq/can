@@ -1,7 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.5
+** Created: Sat Aug 24 06:27:13 2019
+**      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -22,7 +23,6 @@
 #include <QtGui/QMenuBar>
 #include <QtGui/QPushButton>
 #include <QtGui/QSpacerItem>
-#include <QtGui/QStatusBar>
 #include <QtGui/QTextEdit>
 #include <QtGui/QVBoxLayout>
 #include <QtGui/QWidget>
@@ -53,6 +53,8 @@ public:
     QLineEdit *lineEdit_F2Min;
     QLabel *label_14;
     QLabel *label_12;
+    QLineEdit *lineEdit_B2Min;
+    QLabel *label_front3;
     QLabel *label_front4;
     QLabel *label_back2;
     QLabel *label_back1;
@@ -65,6 +67,7 @@ public:
     QLineEdit *lineEdit_Back3;
     QLineEdit *lineEdit_Back2;
     QLabel *label_left2;
+    QLineEdit *lineEdit_Right4;
     QLabel *label_front1;
     QLineEdit *lineEdit_Front3;
     QLabel *label_left4;
@@ -72,7 +75,6 @@ public:
     QLabel *label_back3;
     QLineEdit *lineEdit_Back4;
     QLabel *label_right3;
-    QLabel *label_front3;
     QLabel *label_6;
     QLabel *label_left1;
     QLabel *label_left3;
@@ -90,19 +92,17 @@ public:
     QLabel *label_11;
     QLineEdit *lineEdit_Left1;
     QLabel *label_15;
+    QLineEdit *lineEdit_F1Min;
     QLineEdit *lineEdit_R2Define;
     QLineEdit *lineEdit_F2Define;
-    QLineEdit *lineEdit_F1Min;
     QLineEdit *lineEdit_B4Max;
     QLineEdit *lineEdit_L4Min;
-    QLineEdit *lineEdit_Right4;
-    QLineEdit *lineEdit_B3Min;
     QLineEdit *lineEdit_F4Define;
+    QLineEdit *lineEdit_B3Min;
     QLineEdit *lineEdit_F3Max;
     QLineEdit *lineEdit_F3Min;
     QLineEdit *lineEdit_R4Define;
     QLineEdit *lineEdit_F1Define;
-    QLineEdit *lineEdit_B2Min;
     QLineEdit *lineEdit_R2Max;
     QLineEdit *lineEdit_R3Define;
     QLineEdit *lineEdit_R1Max;
@@ -111,23 +111,23 @@ public:
     QLineEdit *lineEdit_B4Define;
     QLineEdit *lineEdit_B2Define;
     QLineEdit *lineEdit_F4Max;
-    QLabel *label_4;
     QLineEdit *lineEdit_B3Max;
     QLineEdit *lineEdit_B1Max;
+    QLabel *label_4;
     QLineEdit *lineEdit_L2Min;
     QLineEdit *lineEdit_B1Define;
-    QLineEdit *lineEdit_Front1;
     QLineEdit *lineEdit_Left2;
     QLineEdit *lineEdit_R1Define;
+    QLineEdit *lineEdit_Front1;
     QLineEdit *lineEdit_R4Max;
     QLineEdit *lineEdit_Left3;
     QLabel *label_10;
+    QLineEdit *lineEdit_F4Min;
     QLabel *label_9;
     QLineEdit *lineEdit_L1Define;
-    QLineEdit *lineEdit_F4Min;
-    QLabel *label_8;
     QLineEdit *lineEdit_Right2;
     QLineEdit *lineEdit_F3Define;
+    QLabel *label_8;
     QLineEdit *lineEdit_L3Min;
     QLineEdit *lineEdit_R1Min;
     QLabel *label_PassB2;
@@ -146,13 +146,44 @@ public:
     QLabel *label_PassL1;
     QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout_1;
-    QLineEdit *edit;
+    QHBoxLayout *horizontalLayout_3;
+    QLabel *label_DefOrder;
+    QPushButton *pushButton_F4;
+    QPushButton *pushButton_F2;
+    QPushButton *pushButton_F1;
+    QPushButton *pushButton_F3;
+    QPushButton *pushButton_R1;
+    QPushButton *pushButton_R3;
+    QPushButton *pushButton_L3;
+    QPushButton *pushButton_L1;
+    QPushButton *pushButton_L4;
+    QPushButton *pushButton_B1;
+    QPushButton *pushButton_B2;
+    QPushButton *pushButton_B3;
+    QPushButton *pushButton_B4;
+    QPushButton *pushButton_R4;
+    QHBoxLayout *horizontalLayout_2;
+    QLabel *label_TestOrder;
+    QPushButton *pushButton_p_1;
+    QPushButton *pushButton_p_2;
+    QPushButton *pushButton_p_3;
+    QPushButton *pushButton_p_4;
+    QPushButton *pushButton_p_5;
+    QPushButton *pushButton_p_6;
+    QPushButton *pushButton_p_7;
+    QPushButton *pushButton_p_8;
+    QPushButton *pushButton_p_9;
+    QPushButton *pushButton_p_10;
+    QPushButton *pushButton_p_11;
+    QPushButton *pushButton_p_12;
+    QPushButton *pushButton_p_13;
+    QPushButton *pushButton_p_14;
     QTextEdit *label;
     QPushButton *pushButton_Send;
     QSpacerItem *verticalSpacer;
+    QPushButton *pushButton;
     QPushButton *pushButton_Start;
     QMenuBar *menuBar;
-    QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MainWindow)
     {
@@ -295,6 +326,19 @@ public:
 
         gridLayout->addWidget(label_12, 0, 5, 1, 1);
 
+        lineEdit_B2Min = new QLineEdit(centralWidget);
+        lineEdit_B2Min->setObjectName(QString::fromUtf8("lineEdit_B2Min"));
+        lineEdit_B2Min->setMaximumSize(QSize(40, 27));
+        lineEdit_B2Min->setReadOnly(true);
+
+        gridLayout->addWidget(lineEdit_B2Min, 11, 5, 1, 1);
+
+        label_front3 = new QLabel(centralWidget);
+        label_front3->setObjectName(QString::fromUtf8("label_front3"));
+        label_front3->setMaximumSize(QSize(30, 16777215));
+
+        gridLayout->addWidget(label_front3, 8, 0, 1, 1);
+
         label_front4 = new QLabel(centralWidget);
         label_front4->setObjectName(QString::fromUtf8("label_front4"));
 
@@ -379,6 +423,13 @@ public:
 
         gridLayout->addWidget(label_left2, 7, 7, 1, 1);
 
+        lineEdit_Right4 = new QLineEdit(centralWidget);
+        lineEdit_Right4->setObjectName(QString::fromUtf8("lineEdit_Right4"));
+        lineEdit_Right4->setMaximumSize(QSize(40, 27));
+        lineEdit_Right4->setReadOnly(true);
+
+        gridLayout->addWidget(lineEdit_Right4, 13, 9, 1, 1);
+
         label_front1 = new QLabel(centralWidget);
         label_front1->setObjectName(QString::fromUtf8("label_front1"));
         QSizePolicy sizePolicy2(QSizePolicy::Preferred, QSizePolicy::Minimum);
@@ -429,12 +480,6 @@ public:
         label_right3->setMaximumSize(QSize(30, 16777215));
 
         gridLayout->addWidget(label_right3, 12, 7, 1, 1);
-
-        label_front3 = new QLabel(centralWidget);
-        label_front3->setObjectName(QString::fromUtf8("label_front3"));
-        label_front3->setMaximumSize(QSize(30, 16777215));
-
-        gridLayout->addWidget(label_front3, 8, 0, 1, 1);
 
         label_6 = new QLabel(centralWidget);
         label_6->setObjectName(QString::fromUtf8("label_6"));
@@ -546,6 +591,13 @@ public:
 
         gridLayout->addWidget(label_15, 0, 12, 1, 1);
 
+        lineEdit_F1Min = new QLineEdit(centralWidget);
+        lineEdit_F1Min->setObjectName(QString::fromUtf8("lineEdit_F1Min"));
+        lineEdit_F1Min->setMaximumSize(QSize(40, 27));
+        lineEdit_F1Min->setReadOnly(true);
+
+        gridLayout->addWidget(lineEdit_F1Min, 5, 5, 1, 1);
+
         lineEdit_R2Define = new QLineEdit(centralWidget);
         lineEdit_R2Define->setObjectName(QString::fromUtf8("lineEdit_R2Define"));
         lineEdit_R2Define->setMaximumSize(QSize(40, 27));
@@ -557,13 +609,6 @@ public:
         lineEdit_F2Define->setMaximumSize(QSize(40, 27));
 
         gridLayout->addWidget(lineEdit_F2Define, 7, 1, 1, 1);
-
-        lineEdit_F1Min = new QLineEdit(centralWidget);
-        lineEdit_F1Min->setObjectName(QString::fromUtf8("lineEdit_F1Min"));
-        lineEdit_F1Min->setMaximumSize(QSize(40, 27));
-        lineEdit_F1Min->setReadOnly(true);
-
-        gridLayout->addWidget(lineEdit_F1Min, 5, 5, 1, 1);
 
         lineEdit_B4Max = new QLineEdit(centralWidget);
         lineEdit_B4Max->setObjectName(QString::fromUtf8("lineEdit_B4Max"));
@@ -579,12 +624,11 @@ public:
 
         gridLayout->addWidget(lineEdit_L4Min, 9, 11, 1, 1);
 
-        lineEdit_Right4 = new QLineEdit(centralWidget);
-        lineEdit_Right4->setObjectName(QString::fromUtf8("lineEdit_Right4"));
-        lineEdit_Right4->setMaximumSize(QSize(40, 27));
-        lineEdit_Right4->setReadOnly(true);
+        lineEdit_F4Define = new QLineEdit(centralWidget);
+        lineEdit_F4Define->setObjectName(QString::fromUtf8("lineEdit_F4Define"));
+        lineEdit_F4Define->setMaximumSize(QSize(40, 27));
 
-        gridLayout->addWidget(lineEdit_Right4, 13, 9, 1, 1);
+        gridLayout->addWidget(lineEdit_F4Define, 9, 1, 1, 1);
 
         lineEdit_B3Min = new QLineEdit(centralWidget);
         lineEdit_B3Min->setObjectName(QString::fromUtf8("lineEdit_B3Min"));
@@ -592,12 +636,6 @@ public:
         lineEdit_B3Min->setReadOnly(true);
 
         gridLayout->addWidget(lineEdit_B3Min, 12, 5, 1, 1);
-
-        lineEdit_F4Define = new QLineEdit(centralWidget);
-        lineEdit_F4Define->setObjectName(QString::fromUtf8("lineEdit_F4Define"));
-        lineEdit_F4Define->setMaximumSize(QSize(40, 27));
-
-        gridLayout->addWidget(lineEdit_F4Define, 9, 1, 1, 1);
 
         lineEdit_F3Max = new QLineEdit(centralWidget);
         lineEdit_F3Max->setObjectName(QString::fromUtf8("lineEdit_F3Max"));
@@ -624,13 +662,6 @@ public:
         lineEdit_F1Define->setMaximumSize(QSize(40, 27));
 
         gridLayout->addWidget(lineEdit_F1Define, 5, 1, 1, 1);
-
-        lineEdit_B2Min = new QLineEdit(centralWidget);
-        lineEdit_B2Min->setObjectName(QString::fromUtf8("lineEdit_B2Min"));
-        lineEdit_B2Min->setMaximumSize(QSize(40, 27));
-        lineEdit_B2Min->setReadOnly(true);
-
-        gridLayout->addWidget(lineEdit_B2Min, 11, 5, 1, 1);
 
         lineEdit_R2Max = new QLineEdit(centralWidget);
         lineEdit_R2Max->setObjectName(QString::fromUtf8("lineEdit_R2Max"));
@@ -684,12 +715,6 @@ public:
 
         gridLayout->addWidget(lineEdit_F4Max, 9, 4, 1, 1);
 
-        label_4 = new QLabel(centralWidget);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setMaximumSize(QSize(30, 16777215));
-
-        gridLayout->addWidget(label_4, 0, 0, 1, 1);
-
         lineEdit_B3Max = new QLineEdit(centralWidget);
         lineEdit_B3Max->setObjectName(QString::fromUtf8("lineEdit_B3Max"));
         lineEdit_B3Max->setMaximumSize(QSize(40, 27));
@@ -704,6 +729,12 @@ public:
 
         gridLayout->addWidget(lineEdit_B1Max, 10, 4, 1, 1);
 
+        label_4 = new QLabel(centralWidget);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setMaximumSize(QSize(30, 16777215));
+
+        gridLayout->addWidget(label_4, 0, 0, 1, 1);
+
         lineEdit_L2Min = new QLineEdit(centralWidget);
         lineEdit_L2Min->setObjectName(QString::fromUtf8("lineEdit_L2Min"));
         lineEdit_L2Min->setMaximumSize(QSize(40, 27));
@@ -717,16 +748,6 @@ public:
 
         gridLayout->addWidget(lineEdit_B1Define, 10, 1, 1, 1);
 
-        lineEdit_Front1 = new QLineEdit(centralWidget);
-        lineEdit_Front1->setObjectName(QString::fromUtf8("lineEdit_Front1"));
-        sizePolicy1.setHeightForWidth(lineEdit_Front1->sizePolicy().hasHeightForWidth());
-        lineEdit_Front1->setSizePolicy(sizePolicy1);
-        lineEdit_Front1->setMaximumSize(QSize(40, 27));
-        lineEdit_Front1->setBaseSize(QSize(100, 27));
-        lineEdit_Front1->setReadOnly(true);
-
-        gridLayout->addWidget(lineEdit_Front1, 5, 2, 1, 1);
-
         lineEdit_Left2 = new QLineEdit(centralWidget);
         lineEdit_Left2->setObjectName(QString::fromUtf8("lineEdit_Left2"));
         lineEdit_Left2->setMaximumSize(QSize(40, 27));
@@ -739,6 +760,16 @@ public:
         lineEdit_R1Define->setMaximumSize(QSize(40, 27));
 
         gridLayout->addWidget(lineEdit_R1Define, 10, 8, 1, 1);
+
+        lineEdit_Front1 = new QLineEdit(centralWidget);
+        lineEdit_Front1->setObjectName(QString::fromUtf8("lineEdit_Front1"));
+        sizePolicy1.setHeightForWidth(lineEdit_Front1->sizePolicy().hasHeightForWidth());
+        lineEdit_Front1->setSizePolicy(sizePolicy1);
+        lineEdit_Front1->setMaximumSize(QSize(40, 27));
+        lineEdit_Front1->setBaseSize(QSize(100, 27));
+        lineEdit_Front1->setReadOnly(true);
+
+        gridLayout->addWidget(lineEdit_Front1, 5, 2, 1, 1);
 
         lineEdit_R4Max = new QLineEdit(centralWidget);
         lineEdit_R4Max->setObjectName(QString::fromUtf8("lineEdit_R4Max"));
@@ -759,6 +790,13 @@ public:
 
         gridLayout->addWidget(label_10, 0, 4, 1, 1);
 
+        lineEdit_F4Min = new QLineEdit(centralWidget);
+        lineEdit_F4Min->setObjectName(QString::fromUtf8("lineEdit_F4Min"));
+        lineEdit_F4Min->setMaximumSize(QSize(40, 27));
+        lineEdit_F4Min->setReadOnly(true);
+
+        gridLayout->addWidget(lineEdit_F4Min, 9, 5, 1, 1);
+
         label_9 = new QLabel(centralWidget);
         label_9->setObjectName(QString::fromUtf8("label_9"));
 
@@ -769,18 +807,6 @@ public:
         lineEdit_L1Define->setMaximumSize(QSize(40, 27));
 
         gridLayout->addWidget(lineEdit_L1Define, 5, 8, 1, 1);
-
-        lineEdit_F4Min = new QLineEdit(centralWidget);
-        lineEdit_F4Min->setObjectName(QString::fromUtf8("lineEdit_F4Min"));
-        lineEdit_F4Min->setMaximumSize(QSize(40, 27));
-        lineEdit_F4Min->setReadOnly(true);
-
-        gridLayout->addWidget(lineEdit_F4Min, 9, 5, 1, 1);
-
-        label_8 = new QLabel(centralWidget);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
-
-        gridLayout->addWidget(label_8, 0, 8, 1, 1);
 
         lineEdit_Right2 = new QLineEdit(centralWidget);
         lineEdit_Right2->setObjectName(QString::fromUtf8("lineEdit_Right2"));
@@ -794,6 +820,11 @@ public:
         lineEdit_F3Define->setMaximumSize(QSize(40, 27));
 
         gridLayout->addWidget(lineEdit_F3Define, 8, 1, 1, 1);
+
+        label_8 = new QLabel(centralWidget);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+
+        gridLayout->addWidget(label_8, 0, 8, 1, 1);
 
         lineEdit_L3Min = new QLineEdit(centralWidget);
         lineEdit_L3Min->setObjectName(QString::fromUtf8("lineEdit_L3Min"));
@@ -930,10 +961,227 @@ public:
         verticalLayout_1 = new QVBoxLayout();
         verticalLayout_1->setSpacing(6);
         verticalLayout_1->setObjectName(QString::fromUtf8("verticalLayout_1"));
-        edit = new QLineEdit(centralWidget);
-        edit->setObjectName(QString::fromUtf8("edit"));
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setSpacing(6);
+        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
+        label_DefOrder = new QLabel(centralWidget);
+        label_DefOrder->setObjectName(QString::fromUtf8("label_DefOrder"));
+        label_DefOrder->setMinimumSize(QSize(40, 30));
+        label_DefOrder->setMaximumSize(QSize(40, 30));
 
-        verticalLayout_1->addWidget(edit);
+        horizontalLayout_3->addWidget(label_DefOrder);
+
+        pushButton_F4 = new QPushButton(centralWidget);
+        pushButton_F4->setObjectName(QString::fromUtf8("pushButton_F4"));
+        pushButton_F4->setMinimumSize(QSize(30, 30));
+        pushButton_F4->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_F4);
+
+        pushButton_F2 = new QPushButton(centralWidget);
+        pushButton_F2->setObjectName(QString::fromUtf8("pushButton_F2"));
+        pushButton_F2->setMinimumSize(QSize(30, 30));
+        pushButton_F2->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_F2);
+
+        pushButton_F1 = new QPushButton(centralWidget);
+        pushButton_F1->setObjectName(QString::fromUtf8("pushButton_F1"));
+        pushButton_F1->setMinimumSize(QSize(30, 30));
+        pushButton_F1->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_F1);
+
+        pushButton_F3 = new QPushButton(centralWidget);
+        pushButton_F3->setObjectName(QString::fromUtf8("pushButton_F3"));
+        pushButton_F3->setMinimumSize(QSize(30, 30));
+        pushButton_F3->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_F3);
+
+        pushButton_R1 = new QPushButton(centralWidget);
+        pushButton_R1->setObjectName(QString::fromUtf8("pushButton_R1"));
+        pushButton_R1->setMinimumSize(QSize(30, 30));
+        pushButton_R1->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_R1);
+
+        pushButton_R3 = new QPushButton(centralWidget);
+        pushButton_R3->setObjectName(QString::fromUtf8("pushButton_R3"));
+        pushButton_R3->setMinimumSize(QSize(30, 30));
+        pushButton_R3->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_R3);
+
+        pushButton_L3 = new QPushButton(centralWidget);
+        pushButton_L3->setObjectName(QString::fromUtf8("pushButton_L3"));
+        pushButton_L3->setMinimumSize(QSize(30, 30));
+        pushButton_L3->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_L3);
+
+        pushButton_L1 = new QPushButton(centralWidget);
+        pushButton_L1->setObjectName(QString::fromUtf8("pushButton_L1"));
+        pushButton_L1->setMinimumSize(QSize(30, 30));
+        pushButton_L1->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_L1);
+
+        pushButton_L4 = new QPushButton(centralWidget);
+        pushButton_L4->setObjectName(QString::fromUtf8("pushButton_L4"));
+        pushButton_L4->setMinimumSize(QSize(30, 30));
+        pushButton_L4->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_L4);
+
+        pushButton_B1 = new QPushButton(centralWidget);
+        pushButton_B1->setObjectName(QString::fromUtf8("pushButton_B1"));
+        pushButton_B1->setMinimumSize(QSize(30, 30));
+        pushButton_B1->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_B1);
+
+        pushButton_B2 = new QPushButton(centralWidget);
+        pushButton_B2->setObjectName(QString::fromUtf8("pushButton_B2"));
+        pushButton_B2->setMinimumSize(QSize(30, 30));
+        pushButton_B2->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_B2);
+
+        pushButton_B3 = new QPushButton(centralWidget);
+        pushButton_B3->setObjectName(QString::fromUtf8("pushButton_B3"));
+        pushButton_B3->setMinimumSize(QSize(30, 30));
+        pushButton_B3->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_B3);
+
+        pushButton_B4 = new QPushButton(centralWidget);
+        pushButton_B4->setObjectName(QString::fromUtf8("pushButton_B4"));
+        pushButton_B4->setMinimumSize(QSize(30, 30));
+        pushButton_B4->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_B4);
+
+        pushButton_R4 = new QPushButton(centralWidget);
+        pushButton_R4->setObjectName(QString::fromUtf8("pushButton_R4"));
+        pushButton_R4->setMinimumSize(QSize(30, 30));
+        pushButton_R4->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_3->addWidget(pushButton_R4);
+
+
+        verticalLayout_1->addLayout(horizontalLayout_3);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setSpacing(6);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        label_TestOrder = new QLabel(centralWidget);
+        label_TestOrder->setObjectName(QString::fromUtf8("label_TestOrder"));
+        label_TestOrder->setMinimumSize(QSize(40, 30));
+        label_TestOrder->setMaximumSize(QSize(40, 30));
+
+        horizontalLayout_2->addWidget(label_TestOrder);
+
+        pushButton_p_1 = new QPushButton(centralWidget);
+        pushButton_p_1->setObjectName(QString::fromUtf8("pushButton_p_1"));
+        pushButton_p_1->setMinimumSize(QSize(30, 30));
+        pushButton_p_1->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_1);
+
+        pushButton_p_2 = new QPushButton(centralWidget);
+        pushButton_p_2->setObjectName(QString::fromUtf8("pushButton_p_2"));
+        pushButton_p_2->setMinimumSize(QSize(30, 30));
+        pushButton_p_2->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_2);
+
+        pushButton_p_3 = new QPushButton(centralWidget);
+        pushButton_p_3->setObjectName(QString::fromUtf8("pushButton_p_3"));
+        pushButton_p_3->setMinimumSize(QSize(30, 30));
+        pushButton_p_3->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_3);
+
+        pushButton_p_4 = new QPushButton(centralWidget);
+        pushButton_p_4->setObjectName(QString::fromUtf8("pushButton_p_4"));
+        pushButton_p_4->setMinimumSize(QSize(30, 30));
+        pushButton_p_4->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_4);
+
+        pushButton_p_5 = new QPushButton(centralWidget);
+        pushButton_p_5->setObjectName(QString::fromUtf8("pushButton_p_5"));
+        pushButton_p_5->setMinimumSize(QSize(30, 30));
+        pushButton_p_5->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_5);
+
+        pushButton_p_6 = new QPushButton(centralWidget);
+        pushButton_p_6->setObjectName(QString::fromUtf8("pushButton_p_6"));
+        pushButton_p_6->setMinimumSize(QSize(30, 30));
+        pushButton_p_6->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_6);
+
+        pushButton_p_7 = new QPushButton(centralWidget);
+        pushButton_p_7->setObjectName(QString::fromUtf8("pushButton_p_7"));
+        pushButton_p_7->setMinimumSize(QSize(30, 30));
+        pushButton_p_7->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_7);
+
+        pushButton_p_8 = new QPushButton(centralWidget);
+        pushButton_p_8->setObjectName(QString::fromUtf8("pushButton_p_8"));
+        pushButton_p_8->setMinimumSize(QSize(30, 30));
+        pushButton_p_8->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_8);
+
+        pushButton_p_9 = new QPushButton(centralWidget);
+        pushButton_p_9->setObjectName(QString::fromUtf8("pushButton_p_9"));
+        pushButton_p_9->setMinimumSize(QSize(30, 30));
+        pushButton_p_9->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_9);
+
+        pushButton_p_10 = new QPushButton(centralWidget);
+        pushButton_p_10->setObjectName(QString::fromUtf8("pushButton_p_10"));
+        pushButton_p_10->setMinimumSize(QSize(30, 30));
+        pushButton_p_10->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_10);
+
+        pushButton_p_11 = new QPushButton(centralWidget);
+        pushButton_p_11->setObjectName(QString::fromUtf8("pushButton_p_11"));
+        pushButton_p_11->setMinimumSize(QSize(30, 30));
+        pushButton_p_11->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_11);
+
+        pushButton_p_12 = new QPushButton(centralWidget);
+        pushButton_p_12->setObjectName(QString::fromUtf8("pushButton_p_12"));
+        pushButton_p_12->setMinimumSize(QSize(30, 30));
+        pushButton_p_12->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_12);
+
+        pushButton_p_13 = new QPushButton(centralWidget);
+        pushButton_p_13->setObjectName(QString::fromUtf8("pushButton_p_13"));
+        pushButton_p_13->setMinimumSize(QSize(30, 30));
+        pushButton_p_13->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_13);
+
+        pushButton_p_14 = new QPushButton(centralWidget);
+        pushButton_p_14->setObjectName(QString::fromUtf8("pushButton_p_14"));
+        pushButton_p_14->setMinimumSize(QSize(30, 30));
+        pushButton_p_14->setMaximumSize(QSize(30, 30));
+
+        horizontalLayout_2->addWidget(pushButton_p_14);
+
+
+        verticalLayout_1->addLayout(horizontalLayout_2);
 
         label = new QTextEdit(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
@@ -952,10 +1200,18 @@ public:
 
         horizontalLayout->addLayout(verticalLayout_1);
 
+        pushButton = new QPushButton(centralWidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setMinimumSize(QSize(120, 140));
+        pushButton->setMaximumSize(QSize(120, 140));
+        pushButton->setStyleSheet(QString::fromUtf8("font: 75 Bold 36pt \"Ubuntu\";"));
+
+        horizontalLayout->addWidget(pushButton);
+
         pushButton_Start = new QPushButton(centralWidget);
         pushButton_Start->setObjectName(QString::fromUtf8("pushButton_Start"));
-        pushButton_Start->setMinimumSize(QSize(140, 140));
-        pushButton_Start->setMaximumSize(QSize(140, 140));
+        pushButton_Start->setMinimumSize(QSize(120, 140));
+        pushButton_Start->setMaximumSize(QSize(120, 140));
         pushButton_Start->setStyleSheet(QString::fromUtf8("font: 75 Bold 36pt \"Ubuntu\";"));
 
         horizontalLayout->addWidget(pushButton_Start);
@@ -971,9 +1227,6 @@ public:
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
         menuBar->setGeometry(QRect(0, 0, 800, 25));
         MainWindow->setMenuBar(menuBar);
-        statusBar = new QStatusBar(MainWindow);
-        statusBar->setObjectName(QString::fromUtf8("statusBar"));
-        MainWindow->setStatusBar(statusBar);
 
         retranslateUi(MainWindow);
 
@@ -991,6 +1244,7 @@ public:
         label_5->setText(QApplication::translate("MainWindow", "Max", 0, QApplication::UnicodeUTF8));
         label_14->setText(QApplication::translate("MainWindow", "Min", 0, QApplication::UnicodeUTF8));
         label_12->setText(QApplication::translate("MainWindow", "Min", 0, QApplication::UnicodeUTF8));
+        label_front3->setText(QApplication::translate("MainWindow", "F3:", 0, QApplication::UnicodeUTF8));
         label_front4->setText(QApplication::translate("MainWindow", "F4:", 0, QApplication::UnicodeUTF8));
         label_back2->setText(QApplication::translate("MainWindow", "B2:", 0, QApplication::UnicodeUTF8));
         label_back1->setText(QApplication::translate("MainWindow", "B1:", 0, QApplication::UnicodeUTF8));
@@ -1003,7 +1257,6 @@ public:
         label_right4->setText(QApplication::translate("MainWindow", "R4:", 0, QApplication::UnicodeUTF8));
         label_back3->setText(QApplication::translate("MainWindow", "B3:", 0, QApplication::UnicodeUTF8));
         label_right3->setText(QApplication::translate("MainWindow", "R3:", 0, QApplication::UnicodeUTF8));
-        label_front3->setText(QApplication::translate("MainWindow", "F3:", 0, QApplication::UnicodeUTF8));
         label_6->setText(QApplication::translate("MainWindow", "Def", 0, QApplication::UnicodeUTF8));
         label_left1->setText(QApplication::translate("MainWindow", "L1:", 0, QApplication::UnicodeUTF8));
         label_left3->setText(QApplication::translate("MainWindow", "L3:", 0, QApplication::UnicodeUTF8));
@@ -1027,8 +1280,39 @@ public:
         label_PassR3->setText(QString());
         label_PassR4->setText(QString());
         label_PassL1->setText(QString());
+        label_DefOrder->setText(QApplication::translate("MainWindow", "Def:", 0, QApplication::UnicodeUTF8));
+        pushButton_F4->setText(QApplication::translate("MainWindow", "F4", 0, QApplication::UnicodeUTF8));
+        pushButton_F2->setText(QApplication::translate("MainWindow", "F2", 0, QApplication::UnicodeUTF8));
+        pushButton_F1->setText(QApplication::translate("MainWindow", "F1", 0, QApplication::UnicodeUTF8));
+        pushButton_F3->setText(QApplication::translate("MainWindow", "F3", 0, QApplication::UnicodeUTF8));
+        pushButton_R1->setText(QApplication::translate("MainWindow", "R1", 0, QApplication::UnicodeUTF8));
+        pushButton_R3->setText(QApplication::translate("MainWindow", "R3", 0, QApplication::UnicodeUTF8));
+        pushButton_L3->setText(QApplication::translate("MainWindow", "L3", 0, QApplication::UnicodeUTF8));
+        pushButton_L1->setText(QApplication::translate("MainWindow", "L1", 0, QApplication::UnicodeUTF8));
+        pushButton_L4->setText(QApplication::translate("MainWindow", "L4", 0, QApplication::UnicodeUTF8));
+        pushButton_B1->setText(QApplication::translate("MainWindow", "B1", 0, QApplication::UnicodeUTF8));
+        pushButton_B2->setText(QApplication::translate("MainWindow", "B2", 0, QApplication::UnicodeUTF8));
+        pushButton_B3->setText(QApplication::translate("MainWindow", "B3", 0, QApplication::UnicodeUTF8));
+        pushButton_B4->setText(QApplication::translate("MainWindow", "B4", 0, QApplication::UnicodeUTF8));
+        pushButton_R4->setText(QApplication::translate("MainWindow", "R4", 0, QApplication::UnicodeUTF8));
+        label_TestOrder->setText(QApplication::translate("MainWindow", "Test:", 0, QApplication::UnicodeUTF8));
+        pushButton_p_1->setText(QApplication::translate("MainWindow", "P1", 0, QApplication::UnicodeUTF8));
+        pushButton_p_2->setText(QApplication::translate("MainWindow", "P2", 0, QApplication::UnicodeUTF8));
+        pushButton_p_3->setText(QApplication::translate("MainWindow", "P3", 0, QApplication::UnicodeUTF8));
+        pushButton_p_4->setText(QApplication::translate("MainWindow", "P4", 0, QApplication::UnicodeUTF8));
+        pushButton_p_5->setText(QApplication::translate("MainWindow", "P5", 0, QApplication::UnicodeUTF8));
+        pushButton_p_6->setText(QApplication::translate("MainWindow", "P6", 0, QApplication::UnicodeUTF8));
+        pushButton_p_7->setText(QApplication::translate("MainWindow", "P7", 0, QApplication::UnicodeUTF8));
+        pushButton_p_8->setText(QApplication::translate("MainWindow", "P8", 0, QApplication::UnicodeUTF8));
+        pushButton_p_9->setText(QApplication::translate("MainWindow", "P9", 0, QApplication::UnicodeUTF8));
+        pushButton_p_10->setText(QApplication::translate("MainWindow", "P10", 0, QApplication::UnicodeUTF8));
+        pushButton_p_11->setText(QApplication::translate("MainWindow", "P11", 0, QApplication::UnicodeUTF8));
+        pushButton_p_12->setText(QApplication::translate("MainWindow", "P12", 0, QApplication::UnicodeUTF8));
+        pushButton_p_13->setText(QApplication::translate("MainWindow", "P13", 0, QApplication::UnicodeUTF8));
+        pushButton_p_14->setText(QApplication::translate("MainWindow", "P14", 0, QApplication::UnicodeUTF8));
         pushButton_Send->setText(QApplication::translate("MainWindow", "Send", 0, QApplication::UnicodeUTF8));
-        pushButton_Start->setText(QApplication::translate("MainWindow", "Start", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("MainWindow", "Seq", 0, QApplication::UnicodeUTF8));
+        pushButton_Start->setText(QApplication::translate("MainWindow", "Dis", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
