@@ -24,7 +24,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     startcan(0);
 
-    QFile fileConfig("AEB_Config.txt");
+    QFile fileConfig("/opt/qt4.8.5/apps/AEB_Config.txt");
     fileConfig.open(QIODevice::ReadOnly | QIODevice::Text);
     QTextStream streamConfig(&fileConfig);
 //    streamConfig.setCodec("utf-8");
@@ -565,7 +565,7 @@ void MainWindow::msg(uint* str)
 }
 
 void MainWindow::on_send_clicked()
-{
+{/*
     struct can_frame frame;
     memset(&frame,0,sizeof(struct can_frame));
     std::string  str=ui->edit->text().toStdString();
@@ -582,6 +582,7 @@ void MainWindow::on_send_clicked()
 
     sendto(socket,&frame,sizeof(struct can_frame),0,(struct sockaddr*)&addr,sizeof(addr));
     return;
+    */
 }
 
 void MainWindow::moveEvent(QMoveEvent *)
